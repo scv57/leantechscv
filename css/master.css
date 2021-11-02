@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  height: 100;
+  background-color: #e0e0e0;
+}
+
+#main{
+  position: relative;
+}
+
+.barra-lateral {
+  padding-top: 4em;
+  padding-bottom:4em;
+  background-color: #fdfdfd;
+  margin-left:20px ;
+
+
+}
+
+.principal {
+  height: 100%;
+  background-color: #e0e0e0;
+  left: 10em;
+  position: absolute;
+}
+
+.boton-secundario {
+  padding-left: 0.8em;
+  padding-top: 2em;
+   position: absolute;
+   top: 15em;
+}
+
+#dropdown-ciudades {
+  visibility: hidden;
+  top: 50px;
+}
+
+#dropdownMenuButton1{
+  background-color: #f46c30;
+}
+
+#container_card{
+  position: absolute;
+  top: 30px;
+}
+
+.tarjeta{
+  position: absolute;
+  top: 15em;
+  left: 200px;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  margin-top: 20px;
+  background-color:#fdfdfd ;
+  color: rgb(7, 7, 7);
+  text-align: center;
+
+  visibility: hidden;
+}
+
+.botones{
+  position:relative ;
+}
+
+.boton_update{
+  border-radius: 5px;
+  background-color:#ff4c04 ;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.unidad_medidas{
+  border-radius: 5px;
+  color: rgb(121, 119, 119);
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: 10px;
+  border:none;
+}
+
+.unidad_medidas:hover{
+  color: #ff4c04;
+}
+
+.temperatura{
+  font-size: 5rem;
+  font-weight: normal;
+  margin-left: 100px;
+  margin-right: 5px;
+  color: #ff4c04;
+  margin: auto;
+}
+
+.nombre_ciudad{
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+#dropdown-menu-1{
+  max-height: 100px;
+  overflow-y: auto;
+}
